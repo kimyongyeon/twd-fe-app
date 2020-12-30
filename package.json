@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-test-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ori_dev": "nuxt",
+    "ori_start": "nuxt start",
+    "generate": "nuxt generate",
+    "dev": "node server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {}
+}
